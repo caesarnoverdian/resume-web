@@ -38,3 +38,29 @@ footer {
   padding-top: 1rem;
   text-align: center;
 }
+
+.header {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 30px;
+}
+
+.profile-img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #00bfff;
+}
+
+.intro h1 {
+  margin: 0;
+  font-size: 28px;
+  color: #fff;
+}
+
+.intro p {
+  font-size: 16px;
+  color: #aaa;
+}
