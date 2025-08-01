@@ -3,7 +3,7 @@
 Ini adalah template Resume / CV dalam format web statis berbasis HTML dan CSS. Cocok untuk menampilkan profil profesional Anda sebagai developer, designer, atau profesional IT secara online.
 
 ## 📸 Preview
-![Resume Web Preview](./preview.png) <!-- Ganti dengan gambar resume jika tersedia -->
+![Resume Web Preview](./resumercn)
 
 Atau lihat langsung di GitHub Pages:  
 🔗 https://caesarnoverdian.github.io/resume-web/
