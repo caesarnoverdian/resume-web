@@ -4,33 +4,46 @@ body {
   background-color: #121212;
   color: #f5f5f5;
   line-height: 1.6;
+  scroll-behavior: smooth;
 }
 
+/* Container */
 .container {
   max-width: 800px;
   margin: auto;
   padding: 2rem;
+  background-color: #1c1c1c;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.6);
 }
 
+/* Header, Section, Footer spacing */
 header, section, footer {
   margin-bottom: 2rem;
 }
 
-header h1 {
+/* Title */
+header h1,
+.intro h1 {
   font-size: 2.5rem;
   color: #00bcd4;
+  margin: 0;
 }
 
+/* Section Title */
 h2 {
   color: #03dac6;
-  border-bottom: 1px solid #333;
+  border-bottom: 2px solid #03dac6;
   padding-bottom: 0.3rem;
+  margin-bottom: 1rem;
 }
 
+/* List */
 ul {
   padding-left: 1.2rem;
 }
 
+/* Footer */
 footer {
   font-size: 0.9rem;
   color: #999;
@@ -39,6 +52,7 @@ footer {
   text-align: center;
 }
 
+/* Header Image & Intro */
 .header {
   display: flex;
   align-items: center;
@@ -52,15 +66,19 @@ footer {
   border-radius: 50%;
   object-fit: cover;
   border: 3px solid #00bfff;
+  box-shadow: 0 0 10px rgba(0,191,255,0.4);
 }
 
-.intro h1 {
-  margin: 0;
-  font-size: 28px;
-  color: #fff;
-}
-
+/* Intro */
 .intro p {
   font-size: 16px;
   color: #aaa;
+  margin-top: 5px;
+}
+
+/* Typed effect style */
+#typed-text {
+  color: #00bcd4;
+  font-weight: bold;
+  font-size: 1.1rem;
 }
