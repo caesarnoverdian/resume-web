@@ -25,8 +25,6 @@ resume-web/
 
 └── README.md                     # Dokumentasi & petunjuk penggunaan
 
-
-
 ## 📄 Fitur
 
 - Tampilan profesional dan bersih
@@ -39,6 +37,7 @@ resume-web/
 1. **Fork** atau **Clone** repositori ini:
    ```bash
    git clone https://github.com/caesarnoverdian/resume-web.git
+   ```
 
 2. **Edit Informasi di index.html**
    - Buka index.html dan ubah isi berikut:
@@ -50,37 +49,41 @@ resume-web/
    - Kontak (email, LinkedIn, dsb)
 
 3. **Tambahkan Foto Profil (Opsional)**
-   
+
    Simpan foto ke folder:
    ```bash
    assets/img/profile.jpg
+   ```
 
-Pastikan di index.html menggunakan:
-
-      <img src="assets/img/profile.jpg" alt="Foto Profil" class="profile-img">
+   Pastikan di index.html menggunakan:
+   ```html
+   <img src="assets/img/profile.jpg" alt="Foto Profil" class="profile-img">
+   ```
 
 4. **Tambahkan Efek Ketik (Opsional)**
-   
-   Jika ingin menggunakan efek teks dinamis untuk profesi seperti "IT Support", tambahkan ini sebelum _</body>_ :
 
-      ```bash
-      <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
-      <script>
-      var typed = new Typed("#typed-text", {
-       strings: ["IT Support", "IT Infrastructure", "Network Specialist"],
-       typeSpeed: 50,
-       backSpeed: 30,
-       loop: true
-      });
-      </script>
+   Jika ingin menggunakan efek teks dinamis untuk profesi seperti "IT Support", tambahkan ini sebelum `</body>`:
 
-Dan pastikan di dalam HTML ada elemen:
-      
-      <span id="typed-text"></span>
+   ```html
+   <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+   <script>
+   var typed = new Typed("#typed-text", {
+     strings: ["IT Support", "IT Infrastructure", "Network Specialist"],
+     typeSpeed: 50,
+     backSpeed: 30,
+     loop: true
+   });
+   </script>
+   ```
 
- 5. **Uji Coba di Browser Lokal**
-    
-    Buka file index.html dengan browser lokal untuk melihat tampilannya.
+   Dan pastikan di dalam HTML ada elemen:
+   ```html
+   <span id="typed-text"></span>
+   ```
+
+5. **Uji Coba di Browser Lokal**
+
+   Buka file index.html dengan browser lokal untuk melihat tampilannya.
 
 6. **Deploy ke GitHub Pages**
 
@@ -91,24 +94,16 @@ Dan pastikan di dalam HTML ada elemen:
    - Masuk ke GitHub > Repositori kamu > Settings > Pages
 
    - Di bagian "Pages", pilih:
-        - Source: main
-        - Folder: /root
+     - Source: main
+     - Folder: /root
 
-   - Klik "Save
-  
+   - Klik "Save"
+
    - Web resume kamu akan tampil di :
      https://USERNAME.github.io/NAMA-REPO/
 
-7. Kustomisasi Tambahan (Opsional)
-   
+7. **Kustomisasi Tambahan (Opsional)**
+
    - Ganti warna tema di style.css
-
    - Tambahkan bagian: Portofolio, Sertifikat, Testimoni
-
    - Tambahkan Google Fonts atau ikon dengan FontAwesome
-   
-
-    
-
-
-
